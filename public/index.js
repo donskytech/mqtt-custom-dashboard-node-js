@@ -547,8 +547,8 @@ function initializeMQTTConnection(mqttServer, mqttTopic) {
   );
   var fnCallbacks = { onConnect, onMessage, onError, onClose };
 
-  var mqttService = new MQTTService("ws://127.0.01:9001/mqtt", fnCallbacks);
+  var mqttService = new MQTTService(mqttServer, fnCallbacks);
   mqttService.connect();
 
-  mqttService.subscribe("sensorReadings");
+  mqttService.subscribe(mqttTopic);
 }
