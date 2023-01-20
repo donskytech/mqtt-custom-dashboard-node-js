@@ -3,14 +3,14 @@ A custom MQTT dashboard built using Node.js that can be used to display sensor r
 ![Featured Image - Custom MQTT Dashboard](https://user-images.githubusercontent.com/69466026/213635253-3e988d9e-bc5b-49fe-9ef5-d1bfcd38075b.jpg)  
   
 ## Write up  
-Coming soon on https://www.donskytech.com  
+[How to build your own custom MQTT dashboard?](https://www.donskytech.com/how-to-build-your-own-custom-mqtt-dashboard/)  
   
   
 ## How to run
 You should have Node.js installed in your workstation 
 
 Clone the repository  
-``` git clone https://github.com/donskytech/mqtt-custom-dashboard-node-js.git ``` 
+``` git clone https://github.com/donskytech/mqtt-custom-dashboard-node-js.git ```  
 ``` cd mqtt-custom-dashboard-node-js ``` 
 
 Rename the .env.local to .env  
