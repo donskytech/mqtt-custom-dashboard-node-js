@@ -1,0 +1,29 @@
+{
+  "name": "mqtt-custom-dashboard-node",
+  "version": "1.0.0",
+  "description": "A custom MQTT dashboard built using Node.js that can be used to display sensor readings from a BME280 sensor",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donskytech/mqtt-custom-dashboard-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donskytech/mqtt-custom-dashboard-node-js/issues"
+  },
+  "homepage": "https://github.com/donskytech/mqtt-custom-dashboard-node-js#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
